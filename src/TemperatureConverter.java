@@ -15,10 +15,10 @@ public class TemperatureConverter {
 
     if (args[0].equals("-F")) {
       celsius = (convertToInt(args[1]) - 32) * 5.0 / 9.0;
-      System.out.println(args[1] + " in C is " + celsius);
+      System.out.println(args[1] + "F in C is " + celsius);
     } else if (args[0].equals("-C")) {
       fahrenheit = (convertToInt(args[1]) * 9.0/5.0) + 32;
-      System.out.println(args[1] + " in F is " + fahrenheit);
+      System.out.println(args[1] + "C in F is " + fahrenheit);
     }
   }
 
